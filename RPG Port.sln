@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{FD52800F-93C7-89BC-42E7-A930A218C7CC}") = "RPG Port", "Assembly-CSharp.csproj", "{6E9637CF-AB0D-D4AF-BFEB-29FFD122928A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9637CF-AB0D-D4AF-BFEB-29FFD122928A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9637CF-AB0D-D4AF-BFEB-29FFD122928A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9637CF-AB0D-D4AF-BFEB-29FFD122928A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9637CF-AB0D-D4AF-BFEB-29FFD122928A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CharSize.cs">
+    <Files>
+      <File FileName="Assets\Common\Window\scripts\WindowManager.cs" Line="35" Column="41" />
+      <File FileName="Assets\Common\Window\scripts\Window.cs" Line="15" Column="37" />
+      <File FileName="Assets\Common\Window\scripts\WindowText.cs" Line="130" Column="3" />
+      <File FileName="Assets\CharSize.cs" Line="7" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
