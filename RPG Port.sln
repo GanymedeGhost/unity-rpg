@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{FD52800F-93C7-89BC-42E7-A930A218C7CC}") = "RPG Port", "Assembly-CSharp.csproj", "{6E9637CF-AB0D-D4AF-BFEB-29FFD122928A}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG Port", "Assembly-CSharp.csproj", "{6E9637CF-AB0D-D4AF-BFEB-29FFD122928A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
