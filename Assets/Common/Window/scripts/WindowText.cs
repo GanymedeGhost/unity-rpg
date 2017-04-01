@@ -48,7 +48,7 @@ public class WindowText : MonoBehaviour {
 
 	private void ParseText() {
 		Canvas.ForceUpdateCanvases ();
-		CharacterInfo charInfo = new CharacterInfo ();
+        CharacterInfo charInfo;
 		myFont.GetCharacterInfo (' ', out charInfo, myFont.fontSize);
 		float spaceWidth = charInfo.advance;
 
@@ -71,15 +71,21 @@ public class WindowText : MonoBehaviour {
 			}
 			wordWidths [curWord] += spaceWidth;
 
-			if (lineWidths [curLine] + wordWidths [curWord] > size.x) {
+			if (lineWidths [curLine] + wordWidths [curWord] > size.x - 40) {
 				parsedLines.Add ("");
 				lineWidths.Add (0f);
 				curLine += 1;
-			}
+            }
 			parsedLines [curLine] += words [curWord] + " ";
+            lineWidths[curLine] += wordWidths[curWord];
 
 			curWord += 1;
 		}
+        
+        foreach (string str in parsedLines)
+        {
+            print(str);
+        }
 	}
 
 	private void Awake() {
@@ -103,13 +109,8 @@ public class WindowText : MonoBehaviour {
 			textObject.text = text;
 			previewed = true;
 		} else if (!previewCleared) {
-			//textObject.text = "";
+			textObject.text = "";
 			previewCleared = true;
-
-			Canvas.ForceUpdateCanvases ();
-			CharacterInfo charInfo = new CharacterInfo ();
-			myFont.GetCharacterInfo ('S', out charInfo, myFont.fontSize);
-			print (charInfo.advance.ToString ());
 		}
 
 		if (isActive && typeText) {

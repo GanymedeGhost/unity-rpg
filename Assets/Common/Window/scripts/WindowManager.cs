@@ -29,7 +29,7 @@ public class WindowManager : MonoBehaviour {
 	}
 
 	private void Start() {
-		Vector2 size = new Vector2 (200f, 100f);
+		Vector2 size = new Vector2 (280f, 100f);
 		Window window = CreateWindow (new Vector2 (150f, 100f), size).GetComponent<Window>();
 		WindowText newText = window.AddToContents (windowTextPrefab).GetComponent<WindowText>();
 		newText.Initialize(lorem, size, true);
