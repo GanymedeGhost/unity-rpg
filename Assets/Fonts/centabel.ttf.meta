@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 81a2197f8cae28f49a16ceba1a0e0b9d
+timeCreated: 1491102148
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Centabel Book
+  fontNames:
+  - Centabel Book
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

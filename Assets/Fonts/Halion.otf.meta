@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: df1cf8f5edd5eec479940c8f793a58fa
+timeCreated: 1491102148
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Halion
+  fontNames:
+  - Halion
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity-rpg", "unity-rpg.csproj", "{207E7060-FB8A-4EFC-939B-611D8722BB75}"
 EndProject
 Global

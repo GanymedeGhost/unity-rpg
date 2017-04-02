@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2b8182c11778a3245945f176da2bbd6b
+timeCreated: 1491102147
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ParmaPetit
+  fontNames:
+  - ParmaPetit
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
